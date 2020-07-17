@@ -6,3 +6,8 @@ function feetToMile(feet){
     }
     return feet/5280;
 }
+
+//woodCalculator
+function woodCalculator(chair,table,bed){
+    return chair + (table*3) + (bed*5);
+}
