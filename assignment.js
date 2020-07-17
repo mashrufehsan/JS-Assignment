@@ -32,3 +32,13 @@ function brickCalculator(numOfFloors){
     else
         return 270000 + ((numOfFloors-20)*1000*10);
 }
+
+//tinyFriend
+function tinyFriend(names){
+    var shortest = names[0];
+    for(var i=1; i<names.length; i++){
+        if(names[i].length<shortest.length)
+            shortest = names[i];
+    }
+    return shortest;
+}
